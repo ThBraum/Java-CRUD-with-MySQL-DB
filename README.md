@@ -17,6 +17,7 @@ Features include:
  >- Upload
  >- Print
  >- Clean TextField
+ >- Delete
  >- Exit
  *** 
  Requirements to use:
