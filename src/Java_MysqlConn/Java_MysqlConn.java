@@ -459,6 +459,18 @@ private JFrame frame;
     
     }//GEN-LAST:event_jbtnExcluirActionPerformed
 
+    private void jTable1KeyPressed(java.awt.event.KeyEvent evt) {                                   
+        DefaultTableModel RecordTable = (DefaultTableModel)jTable1.getModel();
+        int SelectedRows = jTable1.getSelectedRow();
+        
+        jtxtNome.setText(RecordTable.getValueAt(SelectedRows, 1).toString());
+        jtxtTelefone.setText(RecordTable.getValueAt(SelectedRows, 2).toString());
+        jtxtEndereço.setText(RecordTable.getValueAt(SelectedRows, 3).toString());
+        jtxtQtdCascos.setText(RecordTable.getValueAt(SelectedRows, 4).toString());
+        jtxtMarca.setText(RecordTable.getValueAt(SelectedRows, 5).toString());
+        jtxtData.setText(RecordTable.getValueAt(SelectedRows, 6).toString());
+    }
+    
     /**
      * @param args the command line arguments
      */
