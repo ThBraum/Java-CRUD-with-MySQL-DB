@@ -1,6 +1,6 @@
 # Java CRUD with MySQL DB
 
-## Java Project Integrated with [MySQL](https://dev.mysql.com/downloads/installer/) Database
+## Java Project Integrated with MySQL Database
 ***
 I created this project for use at my grandfather's convenience. The main function of this project is to have control over the beer cases borrowed by the convenience, in addition to other functionalities.
 </br>
@@ -23,3 +23,7 @@ Features include:
   - [Java SE Development Kit 16](https://www.oracle.com/java/technologies/javase-jdk16-downloads.html)
   - [MySQL DB](https://dev.mysql.com/downloads/installer/)
   ***
+ To run the project from the command line, go to the `dist` folder and
+type the following:
+
+`java -jar "Java_MysqlConn.jar" `
